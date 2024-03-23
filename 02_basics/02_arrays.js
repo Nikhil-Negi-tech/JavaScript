@@ -8,8 +8,8 @@ const dc_heroes = ["Superman", "Batman", "flash", "Wonder"]
 // const allHeroes = marvel_heroes.concat(dc_heroes)
 // console.log(allHeroes)
 
-// const all_new_heroes = [...marvel_heroes, ...dc_heroes] //'spread operator' to merge two arrays
-// console.log(all_new_heroes)
+const all_new_heroes = [...marvel_heroes, ...dc_heroes] //'spread operator' to merge two arrays
+console.log(all_new_heroes)
 
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
