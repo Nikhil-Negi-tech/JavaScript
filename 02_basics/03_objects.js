@@ -23,13 +23,13 @@ const JsUser = {
 // JsUser.email = "nikhil@chatgpt.com"
 // Object.freeze(JsUser) //freeze the object so that no one can modify the object
 JsUser.email = "nikhil@microsoft.com"
-console.log(JsUser)
+// console.log(JsUser)
 
 JsUser.greeting = function () {
-    console.log("hello Js User")
+    // console.log("hello Js User")
 }
 JsUser.greetingTwo = function () {
-    console.log(`hello Js User, ${this.name}`)
+    // console.log(`hello Js User, ${this.name}`)
 }
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
