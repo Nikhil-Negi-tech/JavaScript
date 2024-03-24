@@ -52,11 +52,11 @@ const course = {
 const { courseName, price, courceInstrutor } = course
 console.log(courceInstrutor)
 
-{
-    name: "Nikhil",
-    coursename: "Javascript",
-    price: "free"
-}
+// {
+//     name: "Nikhil",
+//     coursename: "Javascript",
+//     price: "free"
+// }
 
 [
     {},
