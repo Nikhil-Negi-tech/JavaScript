@@ -1,20 +1,19 @@
 const coding = ['Python', 'JavaScript', 'Java', 'C#', 'Ruby']
-// coding.forEach(function (val){
-//     console.log(val)
-// })
-// coding.forEach((val)=>{
-//     console.log(val)
-// })
+coding.forEach(function (val){
+    console.log(val)
+})
+coding.forEach((val)=>{
+    console.log(val)
+})
 
-// function printme(item){
-//     console.log(item)
-// }
-// coding.forEach(printme)
+function printme(item){
+    console.log(item)
+}
+coding.forEach(printme)
 
-// coding.forEach((val,index,arr)=>{
-//     console.log(val,index,arr)
-// })
-
+coding.forEach((val,index,arr)=>{
+    console.log(val,index,arr)
+})
 const myCoding = [
     {
         name: 'Python',
