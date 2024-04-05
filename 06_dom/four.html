@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM with Nikhil</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Python</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>HTML</li>
+    </ul>
+    <script>
+        function addLanguage(langname){
+            const li = document.createElement('li');
+            li.innerHTML = `${langname}`;
+            document.querySelector('.language').appendChild(li);
+        }
+        addLanguage('C++');
+        addLanguage('TypeScript');
+
+        function addOptiLanguage(langname){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langname));
+            document.querySelector('.language').appendChild(li);
+        }
+        addOptiLanguage('C#'); 
+        addOptiLanguage('Ruby');
+
+        //edit
+        const secLang = document.querySelector("li:nth-child(2)")
+        // secLang.innerHTML = "Java 8";
+        const newLi = document.createElement('li')
+        newLi.textContent = "Mojo";
+        secLang.replaceWith(newLi);
+
+        //
+        const lastlang  = document.querySelector("li:last-child");
+        lastlang.remove();
+    </script>
+</body>
+</html>
